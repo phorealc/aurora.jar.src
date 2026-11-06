@@ -1,0 +1,12 @@
+Copyright (c) 2026 Quelchi. All rights reserved.
+
+No part of this software, its source code or its assets may be copied,
+modified, merged, published, distributed, sublicensed or sold without prior
+written permission from the copyright holder.
+
+Third-party components
+
+Some parts of Aurora are adapted from other projects and remain under their
+original licences. Each one is listed with its own licence text in
+src/main/resources/LICENSE_* and ships inside the jar. Those licences apply to
+those parts and are not replaced by this notice.

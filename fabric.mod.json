@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "auroraloader",
+  "version": "1.2.0",
+  "name": "Aurora Loader",
+  "description": "Fetches and loads Aurora. The client itself lives in a payload jar this hands to Fabric at preLaunch, so an update applies on the launch that downloads it rather than the one after.",
+  "authors": [
+    "Quelchi"
+  ],
+  "license": "LicenseRef-All-Rights-Reserved",
+  "environment": "client",
+  "icon": "assets/auroraloader/icon.png",
+  "entrypoints": {
+    "preLaunch": [
+      "dev.quelchi.aurora.loader.AuroraLoader"
+    ]
+  },
+  "jars": [
+    { "file": "META-INF/jars/bendable-cuboids-p5LKzVqY.jar" },
+    { "file": "META-INF/jars/imgui-java-binding-1.90.0.jar" },
+    { "file": "META-INF/jars/imgui-java-lwjgl3-1.90.0.jar" },
+    { "file": "META-INF/jars/imgui-java-natives-macos-1.90.0.jar" },
+    { "file": "META-INF/jars/imgui-java-natives-windows-1.90.0.jar" },
+    { "file": "META-INF/jars/jcodec-0.2.5.jar" },
+    { "file": "META-INF/jars/jcodec-javase-0.2.5.jar" },
+    { "file": "META-INF/jars/jlayer-1.0.1.jar" },
+    { "file": "META-INF/jars/lqglass-0.2.5.jar" },
+    { "file": "META-INF/jars/player-animation-library-wJLdv4ZQ.jar" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5 <0.20.0",
+    "fabric-api": ">=0.141.6",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
